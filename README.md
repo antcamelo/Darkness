@@ -73,22 +73,13 @@ Se o tempo acabar, um fantasma irá te perseguir...
       <sub><b>✉️ bbm@cesar.school</b></sub>
     </td>
     <td align="center">
-      <a href="https://github.com/lovepxdro">
-        <img src="https://avatars.githubusercontent.com/lovepxdro" width="100px;" alt="foto de Pedro Antônio"/>
+      <a href="https://github.com/antcamelo">
+        <img src="https://avatars.githubusercontent.com/antcamelo" width="100px;" alt="foto de Antonio"/>
         <br>
-        <sub><b>Pedro Antônio</b></sub>
+        <sub><b>Antonio Camelo</b></sub>
       </a>
       <br>
-      <sub><b>✉️ pafm@cesar.school</b></sub>
-    </td>
-    <td align="center">
-      <a href="https://github.com/the-lazy-programmer">
-        <img src="https://avatars.githubusercontent.com/the-lazy-programmer" width="100px;" alt="foto de João Marcelo"/>
-        <br>
-        <sub><b>João Marcelo</b></sub>
-      </a>
-      <br>
-      <sub><b>✉️ jmpq@cesar.school</b></sub>
+      <sub><b>✉️ apc@cesar.school</b></sub>
     </td>
   </tr>
 </table>
