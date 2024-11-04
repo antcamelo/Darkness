@@ -640,7 +640,7 @@ int main() {
 
     screenSetColor(WHITE, BLACK); 
     screenGotoxy(x, y);
-    printf("♟️");
+    printf("🧌");
 
     screenUpdate();
 
@@ -891,7 +891,7 @@ int print_item(struct node * head, int *x, int *y){
                 free_all_items(head);
 
                 screenGotoxy(keyX, keyY);
-                printf("♟️");
+                printf("🧌");
 
                 return 1;
 
