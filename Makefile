@@ -1,10 +1,10 @@
 all:
-	gcc ./src/*.c -I include -o alone
+	gcc ./src/*.c -I include -o dark
 
 run:
-	./alone
+	./dark
 
 clean:
-	rm alone
+	rm dark
 
 
