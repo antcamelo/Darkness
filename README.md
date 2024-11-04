@@ -35,7 +35,7 @@ O jogo rodará apenas em um terminal linux. Caso não tenha uma máquina com lin
 - 3 - Execute o programa:
   <div style="display: flex; align-items: center;">
   <pre style="margin: 0; padding: 0.5em; background: #f0f0f0; border: 1px solid #ddd; border-radius: 5px;">
-    <code id="run-command">./alone</code>
+    <code id="run-command">./dark</code>
   </pre>
   <button onclick="copyToClipboard('run-command')"></button>
 </div>
@@ -76,10 +76,10 @@ Se o tempo acabar, um fantasma irá te perseguir...
       <a href="https://github.com/DaviFernandoMatias">
         <img src="https://avatars.githubusercontent.com/DaviFernandoMatias" width="100px;" alt="foto de Davi Fernando"/>
         <br>
-        <sub><b>Pedro Antônio</b></sub>
+        <sub><b>Davi Fernando</b></sub>
       </a>
       <br>
-      <sub><b>✉️ pafm@cesar.school</b></sub>
+      <sub><b>✉️ dfm@cesar.school</b></sub>
     </td>
     <td align="center">
       <a href="https://github.com/antcamelo">
