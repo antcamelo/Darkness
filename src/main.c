@@ -640,7 +640,7 @@ int main() {
 
     screenSetColor(WHITE, BLACK); 
     screenGotoxy(x, y);
-    printf("🧌");
+    printf("⛄");
 
     screenUpdate();
 
@@ -757,7 +757,7 @@ int main() {
 
             screenSetColor(WHITE, BLACK); 
             screenGotoxy(x, y);
-            printf("⛄");
+            printf("♟️");
 
             screenGotoxy(50,1);
 
@@ -849,7 +849,7 @@ void print_obst(int obst[80][24], int *x, int *y){
 
                 if (obst[i][j] == 1) {
                     screenSetColor(WHITE, BLACK);
-                    printf("⚜️");
+                    printf("🕸️");
                 } else {
                     printf(" ");
                 }
@@ -891,7 +891,7 @@ int print_item(struct node * head, int *x, int *y){
                 free_all_items(head);
 
                 screenGotoxy(keyX, keyY);
-                printf("⛄");
+                printf("♟️");
 
                 return 1;
 
