@@ -85,7 +85,7 @@ Se o tempo acabar, um fantasma irá te perseguir...
       <a href="https://github.com/antcamelo">
         <img src="https://avatars.githubusercontent.com/antcamelo" width="100px;" alt="foto de Antonio Camelo"/>
         <br>
-        <sub><b>João Marcelo</b></sub>
+        <sub><b>Antonio Camelo</b></sub>
       </a>
       <br>
       <sub><b>✉️ jmpq@cesar.school</b></sub>
