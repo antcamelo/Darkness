@@ -610,8 +610,6 @@ int main() {
     obst[4][22] = 1;
     obst[4][23] = 1;
 
-    obst[3][15] = 1;
-
 
     struct node * head = NULL;
 
@@ -848,7 +846,7 @@ void print_obst(int obst[80][24], int *x, int *y){
 
                 if (obst[i][j] == 1) {
                     screenSetColor(WHITE, BLACK);
-                    printf("⚜️");
+                    printf("🏚️");
                 } else {
                     printf(" ");
                 }
