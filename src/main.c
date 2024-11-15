@@ -652,12 +652,12 @@ int main() {
 
             if (key == '\n') {
                 screenDestroy();
-                printf("  ___                         ___                     \n");
-                printf(" /  __/__    __   __    \\__  \\_  _ ____ \n");
-                printf("/   \\  _\\_  \\  /     \\/ _ \\    /   |   \\  \\/ // _ \\_  __ \\\n");
-                printf("\\    \\\\  \\/ _ \\|  Y Y  \\  _/   /    |    \\   /\\  _/|  | \\/\n");
-                printf(" \\__  (__  /_||  /\\_  >  \\___  /\\/  \\_  >_|   \n");
-                printf("        \\/     \\/      \\/     \\/           \\/          \\/       \n");
+                 printf(" __     __     _    _     __        __     _   _   __     __    \n");
+                 printf("/\\  _\\   /\\  _ \\   /\\ \"-./  \\   /\\  _\\      /\\  _ \\   /\\ \\ / /  /\\  _\\   /\\  == \\   \n");
+                 printf("\\ \\ \\_ \\  \\ \\  _ \\  \\ \\ \\-./\\ \\  \\ \\  _\\      \\ \\ \\/\\ \\  \\ \\ '\\/    \\ \\  _\\   \\ \\  __<   \n");
+                 printf(" \\ \\__\\  \\ \\\\ \\\\  \\ \\\\ \\ \\\\  \\ \\_\\     \\ \\_\\  \\ \\|     \\ \\_\\  \\ \\\\ \\_\\ \n");
+                 printf("  \\/__/   \\//\\//   \\//  \\//   \\/_/      \\/_/   \\//       \\/__/   \\// /_/ \n");
+                 printf("                                                                                             \n");
                 free_all_items(head);
                 sleep(4);
                 break;
@@ -727,13 +727,12 @@ int main() {
             if(w == x && z == y){
 
                 screenDestroy();
-                printf("  ___                         ___                     \n");
-                printf(" /  __/__    __   __    \\__  \\_  _ ____ \n");
-                printf("/   \\  _\\_  \\  /     \\/ _ \\    /   |   \\  \\/ // _ \\_  __ \\\n");
-                printf("\\    \\\\  \\/ _ \\|  Y Y  \\  _/   /    |    \\   /\\  _/|  | \\/\n");
-                printf(" \\__  (__  /_||  /\\_  >  \\___  /\\/  \\_  >_|   \n");
-                printf("        \\/     \\/      \\/     \\/           \\/          \\/       \n");
-                free_all_items(head);
+                 printf(" __     __     _    _     __        __     _   _   __     __    \n");
+                 printf("/\\  _\\   /\\  _ \\   /\\ \"-./  \\   /\\  _\\      /\\  _ \\   /\\ \\ / /  /\\  _\\   /\\  == \\   \n");
+                 printf("\\ \\ \\_ \\  \\ \\  _ \\  \\ \\ \\-./\\ \\  \\ \\  _\\      \\ \\ \\/\\ \\  \\ \\ '\\/    \\ \\  _\\   \\ \\  __<   \n");
+                 printf(" \\ \\__\\  \\ \\\\ \\\\  \\ \\\\ \\ \\\\  \\ \\_\\     \\ \\_\\  \\ \\|     \\ \\_\\  \\ \\\\ \\_\\ \n");
+                 printf("  \\/__/   \\//\\//   \\//  \\//   \\/_/      \\/_/   \\//       \\/__/   \\// /_/ \n");
+                printf("                                                                                             \n");
                 sleep(4);
                 break;
 
@@ -949,19 +948,19 @@ int tela_inicial(){
 
     int var;
 
-        printf(" _____     ______     ______     __  __     __   __     ______     ______     ______    \n");
-        printf("/\\  __-.  /\\  __ \\   /\\  == \\   /\\ \\/ /    /\\ \"-.\\ \\   /\\  ___\\   /\\  ___\\   /\\  ___\\   \n");
-        printf("\\ \\ \\/\\ \\ \\ \\  __ \\  \\ \\  __<   \\ \\  _\"-.  \\ \\ \\-.  \\  \\ \\  __\\   \\ \\___  \\  \\ \\___  \\  \n");
-        printf(" \\ \\____-  \\ \\_\\ \\_\\  \\ \\_\\ \\_\\  \\ \\_\\ \\_\\  \\ \\_\\\\\"\\_\\  \\ \\_____\\  \\/_____\\  \\/_____\\ \n");
-        printf("  \\/____/   \\/_/\\/_/   \\/_/ /_/   \\/_/\\/_/   \\/_/ \\/_/   \\/_____/   \\/_____/   \\/_____/ \n");
+        printf("\t _____     ______     ______     __  __     __   __     ______     ______     ______    \n");
+        printf("\t/\\  __-.  /\\  __ \\   /\\  == \\   /\\ \\/ /    /\\ \"-.\\ \\   /\\  ___\\   /\\  ___\\   /\\  ___\\   \n");
+        printf("\t\\ \\ \\/\\ \\ \\ \\  __ \\  \\ \\  __<   \\ \\  _\"-.  \\ \\ \\-.  \\  \\ \\  __\\   \\ \\___  \\  \\ \\___  \\  \n");
+        printf("\t \\ \\____-  \\ \\_\\ \\_\\  \\ \\_\\ \\_\\  \\ \\_\\ \\_\\  \\ \\_\\\\\"\\_\\  \\ \\_____\\  \\/_____\\  \\/_____\\ \n");
+        printf("\t  \\/____/   \\/_/\\/_/   \\/_/ /_/   \\/_/\\/_/   \\/_/ \\/_/   \\/_____/   \\/_____/   \\/_____/ \n");
         printf("\n");
 
-    printf("1 - Iniciar o jogo\n");
-    printf("2 - Como jogar\n");
-    printf("3 - Pontuações salvas\n");
-    printf("4 - Sair do jogo\n\n");
+    printf("\t1 - Iniciar o jogo\n");
+    printf("\t2 - Como jogar\n");
+    printf("\t3 - Pontuações salvas\n");
+    printf("\t4 - Sair do jogo\n\n");
 
-    printf("Digite a opção: ");
+    printf("\tDigite a opção: ");
     scanf("%d", &var);
 
     while(var != 1){
@@ -970,24 +969,24 @@ int tela_inicial(){
         if(var == 2){
 
             screenDestroy();
-            printf(" _____     ______     ______     __  __     __   __     ______     ______     ______    \n");
-            printf("/\\  __-.  /\\  __ \\   /\\  == \\   /\\ \\/ /    /\\ \"-.\\ \\   /\\  ___\\   /\\  ___\\   /\\  ___\\   \n");
-            printf("\\ \\ \\/\\ \\ \\ \\  __ \\  \\ \\  __<   \\ \\  _\"-.  \\ \\ \\-.  \\  \\ \\  __\\   \\ \\___  \\  \\ \\___  \\  \n");
-            printf(" \\ \\____-  \\ \\_\\ \\_\\  \\ \\_\\ \\_\\  \\ \\_\\ \\_\\  \\ \\_\\\\\"\\_\\  \\ \\_____\\  \\/_____\\  \\/_____\\ \n");
-            printf("  \\/____/   \\/_/\\/_/   \\/_/ /_/   \\/_/\\/_/   \\/_/ \\/_/   \\/_____/   \\/_____/   \\/_____/ \n");
+            printf("\t _____     ______     ______     __  __     __   __     ______     ______     ______    \n");
+            printf("\t/\\  __-.  /\\  __ \\   /\\  == \\   /\\ \\/ /    /\\ \"-.\\ \\   /\\  ___\\   /\\  ___\\   /\\  ___\\   \n");
+            printf("\t\\ \\ \\/\\ \\ \\ \\  __ \\  \\ \\  __<   \\ \\  _\"-.  \\ \\ \\-.  \\  \\ \\  __\\   \\ \\___  \\  \\ \\___  \\  \n");
+            printf("\t \\ \\____-  \\ \\_\\ \\_\\  \\ \\_\\ \\_\\  \\ \\_\\ \\_\\  \\ \\_\\\\\"\\_\\  \\ \\_____\\  \\/_____\\  \\/_____\\ \n");
+            printf("\t  \\/____/   \\/_/\\/_/   \\/_/ /_/   \\/_/\\/_/   \\/_/ \\/_/   \\/_____/   \\/_____/   \\/_____/ \n");
             printf("\n");
 
-            printf("▪️ Utilize as teclas W-A-S-D para mover o personagem pelo labirinto.\n");
-            printf("▪️ Procure a chave para poder desbloquear a saída.\n");
-            printf("▪️ Seu tempo refletirá na sua pontuação.\n");
-            printf("⚠️ Importante: Se a contagem chegar em 0 você estará em grande perigo. \n\n");
-            printf("Caso queira desistir no meio do jogo pressione: ENTER\n");
+            printf("\t▪️ Utilize as teclas W-A-S-D para mover o personagem pelo labirinto.\n");
+            printf("\t▪️ Procure a chave para poder desbloquear a saída.\n");
+            printf("\t▪️ Seu tempo refletirá na sua pontuação.\n");
+            printf("\t⚠️ Importante: Se a contagem chegar em 0 você estará em grande perigo. \n\n");
+            printf("\tCaso queira desistir no meio do jogo pressione: ENTER\n");
             printf("\n");
-            printf("1 - Iniciar o jogo\n");
-            printf("3 - Pontuações salvas\n");
-            printf("4 - Sair do jogo\n");
-            printf("0 - Voltar para a tela inicial\n\n");
-            printf("Digite a opção: ");
+            printf("\t1 - Iniciar o jogo\n");
+            printf("\t3 - Pontuações salvas\n");
+            printf("\t4 - Sair do jogo\n");
+            printf("\t0 - Voltar para a tela inicial\n\n");
+            printf("\tDigite a opção: ");
             scanf("%d", &var);
         }
 
@@ -1012,11 +1011,11 @@ int tela_inicial(){
     printf("\n");
     fclose(rank);
 
-    printf("1 - Iniciar o jogo\n");
-    printf("2 - Como jogar\n");
-    printf("4 - Sair do jogo\n");
-    printf("0 - Voltar para a tela inicial\n\n");
-    printf("Digite a opção: ");
+    printf("\t1 - Iniciar o jogo\n");
+    printf("\t2 - Como jogar\n");
+    printf("\t4 - Sair do jogo\n");
+    printf("\t0 - Voltar para a tela inicial\n\n");
+    printf("\tDigite a opção: ");
     scanf("%d", &var);
 }
 
@@ -1024,18 +1023,18 @@ int tela_inicial(){
         if(var == 0){
             
             screenDestroy();
-            printf(" _____     ______     ______     __  __     __   __     ______     ______     ______    \n");
-            printf("/\\  __-.  /\\  __ \\   /\\  == \\   /\\ \\/ /    /\\ \"-.\\ \\   /\\  ___\\   /\\  ___\\   /\\  ___\\   \n");
-            printf("\\ \\ \\/\\ \\ \\ \\  __ \\  \\ \\  __<   \\ \\  _\"-.  \\ \\ \\-.  \\  \\ \\  __\\   \\ \\___  \\  \\ \\___  \\  \n");
-            printf(" \\ \\____-  \\ \\_\\ \\_\\  \\ \\_\\ \\_\\  \\ \\_\\ \\_\\  \\ \\_\\\\\"\\_\\  \\ \\_____\\  \\/_____\\  \\/_____\\ \n");
-            printf("  \\/____/   \\/_/\\/_/   \\/_/ /_/   \\/_/\\/_/   \\/_/ \\/_/   \\/_____/   \\/_____/   \\/_____/ \n");
+            printf("\t _____     ______     ______     __  __     __   __     ______     ______     ______    \n");
+            printf("\t/\\  __-.  /\\  __ \\   /\\  == \\   /\\ \\/ /    /\\ \"-.\\ \\   /\\  ___\\   /\\  ___\\   /\\  ___\\   \n");
+            printf("\t\\ \\ \\/\\ \\ \\ \\  __ \\  \\ \\  __<   \\ \\  _\"-.  \\ \\ \\-.  \\  \\ \\  __\\   \\ \\___  \\  \\ \\___  \\  \n");
+            printf("\t \\ \\____-  \\ \\_\\ \\_\\  \\ \\_\\ \\_\\  \\ \\_\\ \\_\\  \\ \\_\\\\\"\\_\\  \\ \\_____\\  \\/_____\\  \\/_____\\ \n");
+            printf("\t  \\/____/   \\/_/\\/_/   \\/_/ /_/   \\/_/\\/_/   \\/_/ \\/_/   \\/_____/   \\/_____/   \\/_____/ \n");
             printf("\n");
 
-            printf("1 - Iniciar o jogo\n");
-            printf("2 - Como jogar\n");
-            printf("3 - Pontuações salvas\n");
-            printf("4 - Sair do jogo\n");
-            printf("Digite a opção: ");
+            printf("\t1 - Iniciar o jogo\n");
+            printf("\t2 - Como jogar\n");
+            printf("\t3 - Pontuações salvas\n");
+            printf("\t4 - Sair do jogo\n");
+            printf("\tDigite a opção: ");
             scanf("%d", &var);
 
         }
