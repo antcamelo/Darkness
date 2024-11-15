@@ -88,7 +88,7 @@ Se o tempo acabar, um fantasma irá te perseguir...
         <sub><b>Antonio Camelo</b></sub>
       </a>
       <br>
-      <sub><b>✉️ jmpq@cesar.school</b></sub>
+      <sub><b>✉️ apc@cesar.school</b></sub>
     </td>
   </tr>
 </table>
