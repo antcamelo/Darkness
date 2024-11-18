@@ -6,7 +6,7 @@ Darkness é um jogo de fuga de labirinto ás cegas. Criado com intuido de satisf
 
 # 📖LORE
 
-No jogo seu personagem acorda em uma caverna misteriosa sem saber o porque e quem o colocou lá, restando apenas seguir os caminhos a sua frente para encontrar uma saída e talvez descobrir os motivos que o levaram a essa situação.
+No jogo seu personagem acorda em uma cidade abandonada sem saber o porque e quem o colocou lá, restando apenas seguir os caminhos a sua frente para encontrar uma saída e talvez descobrir os motivos que o levaram a essa situação.
 
 ---
 
@@ -88,7 +88,7 @@ Se o tempo acabar, um fantasma irá te perseguir...
         <sub><b>Antonio Camelo</b></sub>
       </a>
       <br>
-      <sub><b>✉️ jmpq@cesar.school</b></sub>
+      <sub><b>✉️ apc@cesar.school</b></sub>
     </td>
   </tr>
 </table>
