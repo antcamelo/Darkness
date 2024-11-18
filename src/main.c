@@ -613,16 +613,20 @@ int main() {
 
     struct node * head = NULL;
 
+
     obst[3][3] = 1;
     obst[2][3] = 1;
+    
+    obst[3][23] = 1;
+    obst[2][23] = 1;
 
     head = (struct node *)malloc(sizeof(struct node));
     head->cordX = 2;
-    head->cordY = 3;
+    head->cordY = 23;
     head->type = 0;
     head->next = (struct node *)malloc(sizeof(struct node));
     head->next->cordX = 3;
-    head->next->cordY = 3;
+    head->next->cordY = 23;
     head->next->type = 0;
     head->next->next = (struct node *)malloc(sizeof(struct node));
     head->next->next->cordX = 63;
@@ -663,7 +667,7 @@ int main() {
 
             movePoint(&x, &y, key, obst);
 
-            if ((x == 3 && y == 3) || (x == 2 && y == 3)) {
+            if ((x == 3 && y == 23) || (x == 2 && y == 23)) {
                 FILE * rank;
                 char str[501];
                 int pont, i, j;
@@ -738,8 +742,8 @@ int main() {
 
             if (keyGet == 1){
 
-                obst[3][3] = 0;
-                obst[2][3] = 0;
+                obst[3][23] = 0;
+                obst[2][23] = 0;
 
             }
 
@@ -748,7 +752,7 @@ int main() {
                 RUN(&x, &y, &w, &z);
                 screenGotoxy(w, z);
                 screenSetColor(RED, BLACK);
-                printf("👾");
+                printf("👻");
 
             }
 
@@ -975,7 +979,7 @@ int tela_inicial(){
             printf("\n");
 
             printf("\t▪️ Utilize as teclas W-A-S-D para mover o personagem pelo labirinto.\n");
-            printf("\t▪️ Procure a chave para poder desbloquear a saída.\n");
+            printf("\t▪️ Procure o machado para poder desbloquear a saída.\n");
             printf("\t▪️ Seu tempo refletirá na sua pontuação.\n");
             printf("\t⚠️ Importante: Se a contagem chegar em 0 você estará em grande perigo. \n\n");
             printf("\tCaso queira desistir no meio do jogo pressione: ENTER\n");
