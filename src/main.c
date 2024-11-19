@@ -64,7 +64,7 @@ int main() {
         obst[i][3] = 1; 
     }
 
-    obst[78][15] = 1; //invertido
+    obst[78][15] = 1; 
     obst[78][6] = 1;
 
 
@@ -632,8 +632,8 @@ int main() {
     head->next->cordY = 23;
     head->next->type = 0;
     head->next->next = (struct node *)malloc(sizeof(struct node));
-    head->next->next->cordX = 63;
-    head->next->next->cordY = 4; 
+    head->next->next->cordX = 62;
+    head->next->next->cordY = 22; 
     head->next->next->type = 1;
     head->next->next->next = NULL;
 
