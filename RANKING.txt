@@ -3,3 +3,6 @@ bruno		216
 pablo		130
 pamela      95
 breno		240
+ÿÿÿÿ		136
+sssssssssssszeze		120
+sssssssssssantonio		128
