@@ -1,6 +1,6 @@
 # 👻DARNESS
 
-Darkness é um jogo de fuga de labirinto ás cegas. Criado com intuido de satisfazer todas as regras e necessidades do projeto final da cadeira de PIF. O objetivo principal do jogo é escapar do labirinto com sua visão redusida e com tempo limite de cinco minutos. A tradução do título significa "escuridão", levando o jogador a pensar que ele está perdido e apenas a escuridão é sua companheira. 
+Darkness é um jogo de fuga de labirinto ás cegas. Criado com intuido de satisfazer todas as regras e necessidades do projeto final da cadeira de PIF. O objetivo principal do jogo é escapar do labirinto com sua visão redusida e com tempo limite de quatro minutos. A tradução do título significa "escuridão", levando o jogador a pensar que ele está perdido e apenas a escuridão é sua companheira. 
 
 ---
 
