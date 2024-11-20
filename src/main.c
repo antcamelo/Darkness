@@ -657,12 +657,13 @@ int main() {
 
             if (key == '\n') {
                 screenDestroy();
-                 printf(" _     _     _    _     _        _     _   _   _     _    \n");
-                 printf("/\\  _\\   /\\  _ \\   /\\ \"-./  \\   /\\  _\\      /\\  _ \\   /\\ \\ / /  /\\  _\\   /\\  == \\   \n");
-                 printf("\\ \\ \\_ \\  \\ \\  _ \\  \\ \\ \\-./\\ \\  \\ \\  \\      \\ \\ \\/\\ \\  \\ \\ '\\/    \\ \\  _\\   \\ \\  _<   \n");
-                 printf(" \\ \\_\\  \\ \\\\ \\\\  \\ \\\\ \\ \\\\  \\ \\\\     \\ \\\\  \\ \\|     \\ \\\\  \\ \\\\ \\_\\ \n");
-                 printf("  \\/_/   \\//\\//   \\//  \\//   \\//      \\//   \\//       \\//   \\// // \n");
-                 printf("                                                                                             \n");
+                printf("\t\t ██████╗  █████╗ ███╗   ███╗███████╗     ██████╗ ██╗   ██╗███████╗██████╗ \n");
+                printf("\t\t██╔════╝ ██╔══██╗████╗ ████║██╔════╝    ██╔═══██╗██║   ██║██╔════╝██╔══██╗\n");
+                printf("\t\t██║  ███╗███████║██╔████╔██║█████╗      ██║   ██║██║   ██║█████╗  ██████╔╝\n");
+                printf("\t\t██║   ██║██╔══██║██║╚██╔╝██║██╔══╝      ██║   ██║╚██╗ ██╔╝██╔══╝  ██╔══██╗\n");
+                printf("\t\t╚██████╔╝██║  ██║██║ ╚═╝ ██║███████╗    ╚██████╔╝ ╚████╔╝ ███████╗██║  ██║\n");
+                printf("\t\t ╚═════╝ ╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝     ╚═════╝   ╚═══╝  ╚══════╝╚═╝  ╚═╝\n");
+                printf("\t\t                                                                          \n");
                 free_all_items(head);
                 sleep(4);
                 break;
@@ -732,12 +733,13 @@ int main() {
             if(w == x && z == y){
 
                 screenDestroy();
-                 printf(" _     _     _    _     _        _     _   _   _     _    \n");
-                 printf("/\\  _\\   /\\  _ \\   /\\ \"-./  \\   /\\  _\\      /\\  _ \\   /\\ \\ / /  /\\  _\\   /\\  == \\   \n");
-                 printf("\\ \\ \\_ \\  \\ \\  _ \\  \\ \\ \\-./\\ \\  \\ \\  \\      \\ \\ \\/\\ \\  \\ \\ '\\/    \\ \\  _\\   \\ \\  _<   \n");
-                 printf(" \\ \\_\\  \\ \\\\ \\\\  \\ \\\\ \\ \\\\  \\ \\\\     \\ \\\\  \\ \\|     \\ \\\\  \\ \\\\ \\_\\ \n");
-                 printf("  \\/_/   \\//\\//   \\//  \\//   \\//      \\//   \\//       \\//   \\// // \n");
-                printf("                                                                                             \n");
+                printf("\t\t ██████╗  █████╗ ███╗   ███╗███████╗     ██████╗ ██╗   ██╗███████╗██████╗ \n");
+                printf("\t\t██╔════╝ ██╔══██╗████╗ ████║██╔════╝    ██╔═══██╗██║   ██║██╔════╝██╔══██╗\n");
+                printf("\t\t██║  ███╗███████║██╔████╔██║█████╗      ██║   ██║██║   ██║█████╗  ██████╔╝\n");
+                printf("\t\t██║   ██║██╔══██║██║╚██╔╝██║██╔══╝      ██║   ██║╚██╗ ██╔╝██╔══╝  ██╔══██╗\n");
+                printf("\t\t╚██████╔╝██║  ██║██║ ╚═╝ ██║███████╗    ╚██████╔╝ ╚████╔╝ ███████╗██║  ██║\n");
+                printf("\t\t ╚═════╝ ╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝     ╚═════╝   ╚═══╝  ╚══════╝╚═╝  ╚═╝\n");
+                printf(" \t\t                                                                          \n");
                 sleep(4);
                 break;
 
@@ -953,19 +955,22 @@ int tela_inicial(){
 
     int var;
 
-        printf("\t __     ___     __     _  _     _   _     __     __     __    \n");
-        printf("\t/\\  _-.  /\\  _ \\   /\\  == \\   /\\ \\/ /    /\\ \"-.\\ \\   /\\  _\\   /\\  _\\   /\\  _\\   \n");
-        printf("\t\\ \\ \\/\\ \\ \\ \\  _ \\  \\ \\  _<   \\ \\  \"-.  \\ \\ \\-.  \\  \\ \\  _\\   \\ \\_  \\  \\ \\_  \\  \n");
-        printf("\t \\ \\_-  \\ \\\\ \\\\  \\ \\\\ \\\\  \\ \\\\ \\\\  \\ \\\\\\\"\\\\  \\ \\_\\  \\/_\\  \\/__\\ \n");
-        printf("\t  \\/_/   \\//\\//   \\// //   \\//\\//   \\// \\//   \\/_/   \\/_/   \\/__/ \n");
+        printf("\t\t██████╗  █████╗ ██████╗ ██╗  ██╗███╗   ██╗███████╗███████╗███████╗\n");
+        printf("\t\t██╔══██╗██╔══██╗██╔══██╗██║ ██╔╝████╗  ██║██╔════╝██╔════╝██╔════╝\n");
+        printf("\t\t██║  ██║███████║██████╔╝█████╔╝ ██╔██╗ ██║█████╗  ███████╗███████╗\n");
+        printf("\t\t██║  ██║██╔══██║██╔══██╗██╔═██╗ ██║╚██╗██║██╔══╝  ╚════██║╚════██║\n");
+        printf("\t\t██████╔╝██║  ██║██║  ██║██║  ██╗██║ ╚████║███████╗███████║███████║\n");
+        printf("\t\t╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝╚══════╝╚══════╝\n");
+        printf("\t\t                                                                   \n");
         printf("\n");
 
-    printf("\t1 - Iniciar o jogo\n");
-    printf("\t2 - Como jogar\n");
-    printf("\t3 - Pontuações salvas\n");
-    printf("\t4 - Sair do jogo\n\n");
+    printf("\t\t\t1 - Iniciar o jogo\n");
+    printf("\t\t\t2 - Como jogar\n");
+    printf("\t\t\t3 - Pontuações salvas\n");
+    printf("\t\t\t4 - Sair do jogo\n\n");
+    printf("\n"); 
 
-    printf("\tDigite a opção: ");
+    printf("\t\t\tDigite a opção: ");
     scanf("%d", &var);
 
     while(var != 1){
@@ -974,24 +979,26 @@ int tela_inicial(){
         if(var == 2){
 
             screenDestroy();
-            printf("\t __     ___     __     _  _     _   _     __     __     __    \n");
-            printf("\t/\\  _-.  /\\  _ \\   /\\  == \\   /\\ \\/ /    /\\ \"-.\\ \\   /\\  _\\   /\\  _\\   /\\  _\\   \n");
-            printf("\t\\ \\ \\/\\ \\ \\ \\  _ \\  \\ \\  _<   \\ \\  \"-.  \\ \\ \\-.  \\  \\ \\  _\\   \\ \\_  \\  \\ \\_  \\  \n");
-            printf("\t \\ \\_-  \\ \\\\ \\\\  \\ \\\\ \\\\  \\ \\\\ \\\\  \\ \\\\\\\"\\\\  \\ \\_\\  \\/_\\  \\/__\\ \n");
-            printf("\t  \\/_/   \\//\\//   \\// //   \\//\\//   \\// \\//   \\/_/   \\/_/   \\/__/ \n");
+            printf("\t\t ██████╗ ██████╗ ███╗   ███╗ ██████╗          ██╗ ██████╗  ██████╗  █████╗ ██████╗    \n");
+            printf("\t\t██╔════╝██╔═══██╗████╗ ████║██╔═══██╗         ██║██╔═══██╗██╔════╝ ██╔══██╗██╔══██╗██╗\n");
+            printf("\t\t██║     ██║   ██║██╔████╔██║██║   ██║         ██║██║   ██║██║  ███╗███████║██████╔╝╚═╝\n");
+            printf("\t\t██║     ██║   ██║██║╚██╔╝██║██║   ██║    ██   ██║██║   ██║██║   ██║██╔══██║██╔══██╗██╗\n");
+            printf("\t\t╚██████╗╚██████╔╝██║ ╚═╝ ██║╚██████╔╝    ╚█████╔╝╚██████╔╝╚██████╔╝██║  ██║██║  ██║╚═╝\n");
+            printf("\t\t ╚═════╝ ╚═════╝ ╚═╝     ╚═╝ ╚═════╝      ╚════╝  ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝   \n");
+            printf("\t\t                                                                                       \n");
             printf("\n");
 
-            printf("\t▪️ Utilize as teclas W-A-S-D para mover o personagem pelo labirinto.\n");
-            printf("\t▪️ Procure o machado para poder desbloquear a saída.\n");
-            printf("\t▪️ Seu tempo refletirá na sua pontuação.\n");
-            printf("\t⚠️ Importante: Se a contagem chegar em 0 você estará em grande perigo. \n\n");
-            printf("\tCaso queira desistir no meio do jogo pressione: ENTER\n");
+            printf("\t\t▪️ Utilize as teclas W-A-S-D para mover o personagem pelo labirinto.\n");
+            printf("\t\t▪️ Procure o machado para poder desbloquear a saída.\n");
+            printf("\t\t▪️ Seu tempo refletirá na sua pontuação.\n");
+            printf("\t\t⚠️ Importante: Se a contagem chegar em 0 você estará em grande perigo. \n\n");
+            printf("\t\tCaso queira desistir no meio do jogo pressione: ENTER\n");
             printf("\n");
-            printf("\t1 - Iniciar o jogo\n");
-            printf("\t3 - Pontuações salvas\n");
-            printf("\t4 - Sair do jogo\n");
-            printf("\t0 - Voltar para a tela inicial\n\n");
-            printf("\tDigite a opção: ");
+            printf("\t\t1 - Iniciar o jogo\n");
+            printf("\t\t3 - Pontuações salvas\n");
+            printf("\t\t4 - Sair do jogo\n");
+            printf("\t\t0 - Voltar para a tela inicial\n\n");
+            printf("\t\tDigite a opção: ");
             scanf("%d", &var);
         }
 
@@ -1020,6 +1027,7 @@ int tela_inicial(){
     printf("\t2 - Como jogar\n");
     printf("\t4 - Sair do jogo\n");
     printf("\t0 - Voltar para a tela inicial\n\n");
+    printf("\n"); 
     printf("\tDigite a opção: ");
     scanf("%d", &var);
  }
@@ -1028,18 +1036,22 @@ int tela_inicial(){
         if(var == 0){
             
             screenDestroy();
-            printf("\t __     ___     __     _  _     _   _     __     __     __    \n");
-            printf("\t/\\  _-.  /\\  _ \\   /\\  == \\   /\\ \\/ /    /\\ \"-.\\ \\   /\\  _\\   /\\  _\\   /\\  _\\   \n");
-            printf("\t\\ \\ \\/\\ \\ \\ \\  _ \\  \\ \\  _<   \\ \\  \"-.  \\ \\ \\-.  \\  \\ \\  _\\   \\ \\_  \\  \\ \\_  \\  \n");
-            printf("\t \\ \\_-  \\ \\\\ \\\\  \\ \\\\ \\\\  \\ \\\\ \\\\  \\ \\\\\\\"\\\\  \\ \\_\\  \\/_\\  \\/__\\ \n");
-            printf("\t  \\/_/   \\//\\//   \\// //   \\//\\//   \\// \\//   \\/_/   \\/_/   \\/__/ \n");
+            printf("\t\t██████╗  █████╗ ██████╗ ██╗  ██╗███╗   ██╗███████╗███████╗███████╗\n");
+            printf("\t\t██╔══██╗██╔══██╗██╔══██╗██║ ██╔╝████╗  ██║██╔════╝██╔════╝██╔════╝\n");
+            printf("\t\t██║  ██║███████║██████╔╝█████╔╝ ██╔██╗ ██║█████╗  ███████╗███████╗\n");
+            printf("\t\t██║  ██║██╔══██║██╔══██╗██╔═██╗ ██║╚██╗██║██╔══╝  ╚════██║╚════██║\n");
+            printf("\t\t██████╔╝██║  ██║██║  ██║██║  ██╗██║ ╚████║███████╗███████║███████║\n");
+            printf("\t\t╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝╚══════╝╚══════╝\n");
+            printf("\t\t                                                                   \n");
             printf("\n");
 
-            printf("\t1 - Iniciar o jogo\n");
-            printf("\t2 - Como jogar\n");
-            printf("\t3 - Pontuações salvas\n");
-            printf("\t4 - Sair do jogo\n");
-            printf("\tDigite a opção: ");
+            printf("\t\t\t 1 - Iniciar o jogo\n");
+            printf("\t\t\t 2 - Como jogar\n");
+            printf("\t\t\t 3 - Pontuações salvas\n");
+            printf("\t\t\t 4 - Sair do jogo\n");
+            printf("\n"); 
+            printf("\t\t\t Digite a opção: ");
+            printf("\n"); 
             scanf("%d", &var);
 
         }
