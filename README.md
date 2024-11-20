@@ -49,9 +49,9 @@ O jogo rodará apenas em um terminal linux. Caso não tenha uma máquina com lin
 
 O jogador utilizará as teclas "w-a-s-d" para se locomover pelo labirinto. O tempo limite é de 5 minutos. Seu tempo será salvo em um ranking local de pontuações.
 
-## 🔑CHAVES
+## 🪓MACHADO
 
-A saída do labirinto está trancada, procure a chave para poder sair.
+A saída do labirinto está obstruida, procure o machado para poder sair.
 
 ## 👻GHOST
 
