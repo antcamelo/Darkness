@@ -373,12 +373,14 @@ int main() {
     obst[36][15] = 1;
     obst[36][12] = 1;
     obst[36][6] = 1;
+    obst[36][9] = 1;
 
 
     obst[35][18] = 1;
     obst[35][15] = 1;
     obst[35][12] = 1;
     obst[35][6] = 1;
+    obst[35][9] = 1;
 
 
     obst[34][21] = 1;
@@ -388,6 +390,7 @@ int main() {
     obst[34][15] = 1;
     obst[34][12] = 1;
     obst[34][6] = 1;
+    obst[34][9] = 1;
 
 
     obst[33][12] = 1;
@@ -420,6 +423,11 @@ int main() {
         }
     }
 
+    obst[29][18] = 1;
+    obst[29][19] = 1;
+    obst[29][20] = 1;
+    obst[29][21] = 1;
+
 
     obst[28][9] = 1;
     obst[28][8] = 1;
@@ -448,6 +456,8 @@ int main() {
     obst[25][21] = 1;
     obst[25][18] = 1;
     obst[25][15] = 1;
+    obst[25][16] = 1;
+    obst[25][17] = 1;
     obst[25][14] = 1;
     obst[25][13] = 1;
     obst[25][12] = 1;
@@ -461,19 +471,23 @@ int main() {
     obst[24][12] = 1;
     obst[24][9] = 1;
     obst[24][6] = 1;
+    obst[24][21] = 1;
+    obst[24][21] = 1;
 
 
     obst[23][18] = 1;
     obst[23][12] = 1;
     obst[23][9] = 1;
     obst[23][6] = 1;
-
+    obst[23][21] = 1;
+    
 
     obst[22][12] = 1;
     obst[22][11] = 1;
     obst[22][10] = 1;
     obst[22][9] = 1;
     obst[22][6] = 1;
+    obst[22][21] = 1;
 
     for (int row = 23; row <= 15; row++) {
         obst[22][row] = 1;
@@ -514,10 +528,14 @@ int main() {
 
     obst[16][18] = 1;
     obst[16][12] = 1;
+    obst[16][15] = 1;
     obst[16][9] = 1;
     obst[16][8] = 1;
     obst[16][7] = 1;
     obst[16][6] = 1;
+    obst[16][19] = 1;
+    obst[16][20] = 1;
+    obst[16][21] = 1;
 
     for (int row = 21; row <= 15; row++) {
         obst[16][row] = 1;
@@ -530,11 +548,13 @@ int main() {
     obst[15][18] = 1;
     obst[15][12] = 1;
     obst[15][9] = 1;
+    obst[15][15] = 1;
 
 
     obst[14][18] = 1;
     obst[14][12] = 1;
     obst[14][9] = 1;
+    obst[14][15] = 1;
 
 
     for (int row = 15; row <= 4; row++) {
@@ -544,6 +564,8 @@ int main() {
         }
     }
     obst[13][23] = 1;
+    obst[13][15] = 1;
+    obst[13][9] = 1;
     obst[13][22] = 1;
     obst[13][21] = 1;  
     obst[13][20] = 1;
@@ -606,6 +628,8 @@ int main() {
     obst[5][21] = 1;
     obst[5][18] = 1;
     obst[5][12] = 1;
+    obst[5][10] = 1;
+    obst[5][11] = 1;
     obst[5][9] = 1;
 
 
@@ -633,6 +657,9 @@ int main() {
     
     obst[3][23] = 1;
     obst[2][23] = 1;
+    obst[2][18] = 1;
+    obst[3][18] = 1;
+
 
     head = (struct node *)malloc(sizeof(struct node));
     head->cordX = 2;
